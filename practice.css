@@ -1,0 +1,71 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul{
+    display: inline-block;
+   
+}
+.nav ul li{
+display: inline-block;
+
+}
+.nav ul li a{
+display: inline-block;
+padding:  5px;
+margin-left: 20px;
+text-decoration: none;
+border:1px solid rgb(0, 251, 255);
+border-radius: 35px;
+  
+
+}
+.nav:hover{
+    background-color: rgb(226, 43, 98);
+}
+#sawir{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.leftside{
+    height:400px;
+    width: 80px;
+   border: 2px solid rgb(109, 47, 255);
+   
+}
+h3{
+    padding-top: 25px;
+    border-bottom: 2px solid red ;
+
+}
+.main{
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 1000px;
+    height: 500px;
+    
+    
+
+}
+.header1{
+    background-color: black;
+    color: rgb(255, 0, 144);
+}
+.center{
+    display: flex;
+}
+.footer{
+ 
+    margin-left: 200px;
+}
+
+.footer:hover {
+    color: blue;
+
+}
